@@ -19,7 +19,7 @@ app.use(cookieParser());
 const corsOptions = {
     origin: [
         'http://localhost:5173',
-        'https://your-app.vercel.app'  // ✅ Vercel URL
+        'https://job-portal-weld-seven.vercel.app/'  // ✅ Vercel URL
     ],
     credentials: true
 }
